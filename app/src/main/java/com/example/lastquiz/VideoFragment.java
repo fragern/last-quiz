@@ -18,7 +18,7 @@ public class VideoFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_video,container,false);
 
         VideoView videoView = view.findViewById(R.id.videoView);
-        videoView.setVideoPath("https://file-examples.com/storage/fe19e1a6e563854389e633c/2017/04/file_example_MP4_640_3MG.mp4");
+        videoView.setVideoPath("https://dl8.webmfiles.org/big-buck-bunny_trailer.webm");
         videoView.start();
 
         return view;

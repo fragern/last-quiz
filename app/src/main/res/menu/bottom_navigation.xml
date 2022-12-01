@@ -17,12 +17,13 @@
         android:title="Dial" />
 
     <item
+        android:id="@+id/nav_database"
+        android:icon="@drawable/ic_baseline_storage_24"
+        android:title="Local Data"/>
+
+    <item
         android:id="@+id/nav_calc"
         android:icon="@drawable/ic_baseline_calculate_24"
         android:title="Calculation" />
 
-    <item
-        android:id="@+id/nav_db"
-        android:icon="@drawable/ic_baseline_storage_24"
-        android:title="Database" />
 </menu>

@@ -29,7 +29,7 @@ public class CameraFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_video,container,false);
+        View view = inflater.inflate(R.layout.fragment_camera,container,false);
 
         if (ContextCompat.checkSelfPermission(getActivity(), Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
             if (getFromPref(getActivity(), ALLOW_KEY)) {

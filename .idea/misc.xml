@@ -3,11 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/LastQuiz/app/src/main/res/drawable/ic_baseline_storage_24.xml" value="0.1" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/LastQuiz/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/LastQuiz/app/src/main/res/layout/details.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/LastQuiz/app/src/main/res/layout/fragment_calc.xml" value="0.19010416666666666" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/LastQuiz/app/src/main/res/layout/fragment_calculation.xml" value="0.19010416666666666" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/LastQuiz/app/src/main/res/layout/fragment_camera.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/LastQuiz/app/src/main/res/layout/fragment_database.xml" value="0.203125" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/LastQuiz/app/src/main/res/layout/fragment_db.xml" value="0.1" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/LastQuiz/app/src/main/res/layout/fragment_dial.xml" value="0.19010416666666666" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/LastQuiz/app/src/main/res/layout/fragment_video.xml" value="0.1" />

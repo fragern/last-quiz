@@ -79,6 +79,9 @@ public class MainActivity extends AppCompatActivity {
                         case R.id.nav_calc:
                             selectedFragment = new CalculationFragment();
                             break;
+                        case R.id.nav_database:
+                            selectedFragment = new DatabaseFragment();
+                            break;
                     }
 
                     getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,selectedFragment).commit();
