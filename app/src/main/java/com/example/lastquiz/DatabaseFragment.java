@@ -27,8 +27,6 @@ public class DatabaseFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_database,container,false);
 
-        super.onCreate(savedInstanceState);
-//        setContentView(android.R.layout.fragment_db);
         name = view.findViewById(R.id.name);
         contact = view.findViewById(R.id.contact);
         dob = view.findViewById(R.id.dob);
@@ -51,6 +49,7 @@ public class DatabaseFragment extends Fragment {
                 else
                     Toast.makeText(getActivity(), "New Entry Not Inserted", Toast.LENGTH_SHORT).show();
             }        });
+
         update.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -64,6 +63,7 @@ public class DatabaseFragment extends Fragment {
                 else
                     Toast.makeText(getActivity(), "New Entry Not Updated", Toast.LENGTH_SHORT).show();
             }        });
+
         delete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -75,7 +75,7 @@ public class DatabaseFragment extends Fragment {
                     Toast.makeText(getActivity(), "Entry Not    Deleted", Toast.LENGTH_SHORT).show();
             }        });
 
-        view.setOnClickListener(new View.OnClickListener() {
+        vieww.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Cursor res = DB.getdata();
