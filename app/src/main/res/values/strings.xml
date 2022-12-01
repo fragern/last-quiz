@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LastQuiz</string>
+    <string name="label_fullname">Full Name</string>
+    <string name="label_location">Location</string>
+    <string name="label_designation">Designation</string>
+    <string name="back">Back</string>
+    <string name="save">Save</string>
+    <string name="enter_usd">Currency USD:</string>
+    <string name="enter_usd_hint"></string>
+    <string name="button_convert">Convert to IDR</string>
+</resources>
